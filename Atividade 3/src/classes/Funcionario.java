@@ -1,9 +1,9 @@
 package classes;
 
 public abstract class Funcionario {
-    protected String nome;
-    protected String rg;
-    protected double salario;
+    private String nome;
+    private String rg;
+    private double salario;
 
     public Funcionario(String nome, String rg, double salario) {
         this.nome = nome;
