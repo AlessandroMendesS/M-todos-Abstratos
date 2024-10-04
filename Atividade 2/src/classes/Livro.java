@@ -1,9 +1,9 @@
 package classes;
 
 public class Livro {
-    protected String titulo;
-    protected String autor;
-    protected int numeroPaginas;
+   private String titulo;
+    private String autor;
+    private int numeroPaginas;
 
     public Livro(String titulo, String autor, int numeroPaginas) {
         this.titulo = titulo;
